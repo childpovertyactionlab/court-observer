@@ -1,0 +1,9 @@
+---
+title: "Docket Sign-Up Tutorial"
+toc: FALSE
+---
+
+<object data="assets/docket_signup_tutorial.pdf" type="application/pdf" width="100%" height="800px">
+ <p>No .pdf reader available. Click <a href="assets/docket_signup_tutorial.pdf">here</a> to
+  download the PDF file.</p>
+</object>

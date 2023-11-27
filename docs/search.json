@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Court Observer Home",
+    "section": "",
+    "text": "Training\n    \n  \n  \n    \n      \n      Court Watch Sign-In\n    \n  \n  \n    \n      \n      Note-Taking Template\n    \n  \n  \n    \n      \n      Docket Sign-Up Tutorial\n    \n  \n  \n    \n      \n      Data Deep Dive"
+  },
+  {
+    "objectID": "index.html#what-is-this-website-for",
+    "href": "index.html#what-is-this-website-for",
+    "title": "Court Observer Home",
+    "section": "What is this website for?",
+    "text": "What is this website for?\nAsk Brianna what she wants here, if anything at all"
+  },
+  {
+    "objectID": "index.html#running-code",
+    "href": "index.html#running-code",
+    "title": "Court Observer Home",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\nCode\nlibrary(ggplot2)\nlibrary(cpaltemplates)\n# mtcars dataset is natively available in R\n# head(mtcars)"
+  },
+  {
+    "objectID": "note_taking.html",
+    "href": "note_taking.html",
+    "title": "Note-taking Template",
+    "section": "",
+    "text": "No .pdf reader available. Click here to download the PDF file."
+  },
+  {
+    "objectID": "signup_tutorial.html",
+    "href": "signup_tutorial.html",
+    "title": "Docket Sign-Up Tutorial",
+    "section": "",
+    "text": "No .pdf reader available. Click here to download the PDF file."
+  }
+]

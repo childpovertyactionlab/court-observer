@@ -1,0 +1,53 @@
+---
+title: "Court Observer Home"
+toc: FALSE
+---
+
+```{=html}
+<style>
+
+  p {
+      font-size: 18px !important;
+  }
+  
+
+</style>
+
+<div class="grid-container">
+  <a class="grid-link" href="training.html">
+    <div>
+      <p><i class="bi bi-mortarboard-fill" style='font-size:80px;'></i></p>
+      <p><span>Training</span></p>
+    </div>
+  </a>
+  <a class="grid-link" href="https://esn.mokshadata.com/">
+    <div>
+      <p><i class="bi bi-door-open-fill" style='font-size:80px;'></i></p>
+      <p><span>Court Watch Sign-In</span></p>
+    </div>
+  </a>
+  <a class="grid-link" href="note_taking.html">
+    <div>
+      <p><i class="bi bi-journal-text" style='font-size:80px;'></i></p>
+      <p><span>Note-Taking Template</span></p>
+    </div>
+  </a>
+  <a class="grid-link" href="signup_tutorial.html">
+    <div>
+      <p><i class="bi bi-easel-fill" style='font-size:80px;'></i></p>
+      <p><span>Docket Sign-Up Tutorial</span></p>
+    </div>
+  </a>
+  <a class="grid-link" href="data.html">
+    <div>
+      <p><i class="bi bi-clipboard-data-fill"></i></p>
+      <p><span>Data Deep Dive</span></p>
+    </div>
+  </a>
+</div>
+```
+
+------------------------------------------------------------------------
+## What is this website for?
+
+Ask Brianna what she wants here, if anything at all
