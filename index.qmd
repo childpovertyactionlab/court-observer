@@ -20,7 +20,7 @@ toc: FALSE
       <p><span>Training</span></p>
     </div>
   </a>
-  <a class="grid-link" href="https://esn.mokshadata.com/">
+  <a class="grid-link" href="https://esn.mokshadata.com/" target="_blank">
     <div>
       <p><i class="bi bi-door-open-fill" style='font-size:80px;'></i></p>
       <p><span>Court Watch Sign-In</span></p>

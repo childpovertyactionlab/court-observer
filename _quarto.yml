@@ -26,7 +26,6 @@ format:
     error: TRUE
     echo: FALSE
     message: FALSE
-    link-external-icon: TRUE
 website:
   title: "Court Observers"
   search:
