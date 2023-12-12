@@ -41,7 +41,7 @@ website:
       pinned: TRUE
       search: TRUE
       logo: www/images/CPAL_Logo_White.png
-      logo-href: "https://github.com/childpovertyactionlab"
+      logo-href: index.html
       collapse: false
       right:
         - text: "<b>Menu<b>"
@@ -60,11 +60,8 @@ website:
               text: "Note-Taking Template"
               href: note_taking.html
             - icon: easel
-              text: "Docket Sign-Up Tutorial"
+              text: "Sign-Up and Data Collection Tutorial"
               href: signup_tutorial.html
-            - icon: clipboard-data
-              text: "Data Deep Dive"
-              href: data.html
             - icon: github
               text: "Github"
               href: "https://github.com/childpovertyactionlab/court-observer"

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Court Observers - Court Observer Home</title>
+<title>Court Observers - Docket Sign-Up Tutorial</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,106 +60,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-<!--<script>
-  function toggleInfoDescription(info) {
-    // Toggle the classes to control the visibility of the description and append "..."
-    info.classList.toggle('show-description');
-    info.classList.toggle('collapsed');
-  }
-
-  function addInfoToggle() {
-    var infos = document.querySelectorAll('.info');
-    infos.forEach((info) => {
-      // Initially set as collapsed
-      info.classList.add('collapsed');
-
-      // Attach click event to info element
-      info.style.cursor = 'pointer';
-      info.onclick = function() {
-        toggleInfoDescription(this);
-      };
-    });
-  }
-  
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    addInfoToggle();
-  });
-</script>-->
-
-<script>
-  function addHoverEffect() {
-    const links = document.querySelectorAll('.grid-link');
-    const infos = document.querySelectorAll('.info');
-
-    links.forEach(link => {
-      link.addEventListener('mouseover', () => handleHover(link, true));
-      link.addEventListener('mouseout', () => handleHover(link, false));
-    });
-
-    infos.forEach(info => {
-      info.addEventListener('mouseover', () => handleHover(info, true));
-      info.addEventListener('mouseout', () => handleHover(info, false));
-    });
-
-    function handleHover(element, isHover) {
-      const linkId = element.getAttribute('id');
-      const associatedLink = document.querySelector(`.grid-link[id="${linkId}"]`);
-      const associatedInfo = document.querySelector(`.info[id="${linkId}"]`);
-
-      if (isHover) {
-        associatedLink && associatedLink.classList.add('hovered');
-        associatedInfo && associatedInfo.classList.add('hovered');
-      } else {
-        associatedLink && associatedLink.classList.remove('hovered');
-        associatedInfo && associatedInfo.classList.remove('hovered');
-      }
-    }
-  }
-
-  window.addEventListener('DOMContentLoaded', (event) => {
-    addHoverEffect();
-  });
-</script>
-
-<!--<script>
-  
-  function toggleInfoDescription(infoId) {
-    var description = document.getElementById(infoId);
-    if (description.style.display === "none") {
-      description.style.display = "block";
-    } else {
-      description.style.display = "none";
-    }
-  }
-
-  function addInfoToggle() {
-    var infos = document.querySelectorAll('.info');
-    infos.forEach((info, index) => {
-      const infoId = "info-description-" + index;
-      const descriptionText = info.getAttribute('data-description');
-
-      // Create the new description element
-      const descriptionElement = document.createElement("p");
-      descriptionElement.id = infoId;
-      descriptionElement.style.display = "none";
-      descriptionElement.textContent = descriptionText;
-
-      // Attach click event to info element
-      info.style.cursor = 'pointer';
-      info.onclick = function() {
-        toggleInfoDescription(infoId);
-      };
-
-      // Insert the description element after the info element
-      info.insertAdjacentElement("afterend", descriptionElement);
-    });
-  }
-  
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    addInfoToggle();
-  });
-</script>-->
-
 
 </head>
 
@@ -206,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
         <li>
     <a class="dropdown-item" href="./signup_tutorial.html" rel="" target=""><i class="bi bi-easel" role="img">
 </i> 
- <span class="dropdown-text">Sign-Up and Data Collection Tutorial</span></a>
+ <span class="dropdown-text">Docket Sign-Up Tutorial</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://github.com/childpovertyactionlab/court-observer" rel="" target=""><i class="bi bi-github" role="img">
@@ -232,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Court Observer Home</h1>
+<h1 class="title">Docket Sign-Up Tutorial</h1>
 </div>
 
 
@@ -247,59 +147,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<style>
-
-  p {
-      font-size: 18px !important;
-  }
-  
-
-</style>
-
-<div class="grid-container">
-  <a class="grid-link" id="training" href="training.html" title="Access training materials and resources">
-    <div>
-      <p><i class="bi bi-mortarboard-fill" style="font-size:80px;"></i></p>
-      <p><span>Training</span></p>
-    </div>
-  </a>
-  <a class="grid-link" id="moksha" href="https://esn.mokshadata.com/" target="_blank" title="Sign in for court watch">
-    <div>
-      <p><i class="bi bi-door-open-fill" style="font-size:80px;"></i></p>
-      <p><span>Court Watch Sign-In <i class="bi bi-link"></i></span></p>
-    </div>
-  </a>
-  <a class="grid-link" id="note_taking" href="note_taking.html" title="Download the note-taking template">
-    <div>
-      <p><i class="bi bi-journal-text" style="font-size:80px;"></i></p>
-      <p><span>Note-Taking Template</span></p>
-    </div>
-  </a>
-  <a class="grid-link" id="tutorial" href="tutorial.html" title="Learn how to sign up and collect data">
-    <div>
-      <p><i class="bi bi-easel-fill" style="font-size:80px;"></i></p>
-      <p><span>Sign-Up and Data Collection Tutorial</span></p>
-    </div>
-  </a>
-</div>
-<hr>
-<section id="what-is-this-website-for" class="level2">
-<h2 data-anchor-id="what-is-this-website-for">What is this website for?</h2>
-<p>This resource hub has all of the training materials, links, and documents that you will need during your time as a court observer!</p>
-
-<div class="hover-info">
-    <div class="info" id="training" data-description="The presentation from the training is linked here. This includes the project background, eviction data deep dive, and data collection."><i class="bi bi-mortarboard-fill"></i> <b>Training</b></div>
-    <p></p>
-    <div class="info" id="moksha" data-description="This website is where observers will view and sign up for eviction dockets, enter observation data points, and print docket case listings."><i class="bi bi-door-open-fill"></i> <b>Sign-In</b></div>
-    <p></p>
-    <div class="info" id="note_taking" data-description="This is the document that observers will use during observations to collect data points. Observers can download and print this document."><i class="bi bi-journal-text"></i> <b>Template</b></div>
-    <p></p>
-    <div class="info" id="tutorial" data-description="This tutorial shows observers step-by-step how to sign up for dockets and access the data collection tool."><i class="bi bi-easel-fill"></i> <b>Tutorial</b></div>
-</div>
-
+<object data="assets/docket_signup_tutorial.pdf" type="application/pdf" width="100%" height="800px">
+<p>
+No .pdf reader available. Click <a href="assets/docket_signup_tutorial.pdf">here</a> to download the PDF file.
+</p>
+</object>
 <b><b>
 
-</b></b></section><b><b>
 
 </b></b></main><b><b> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

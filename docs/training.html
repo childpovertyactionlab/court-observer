@@ -70,10 +70,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="https://github.com/childpovertyactionlab" class="navbar-brand navbar-brand-logo">
+    <a href="index.html" class="navbar-brand navbar-brand-logo">
     <img src="./www/images/CPAL_Logo_White.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="https://github.com/childpovertyactionlab">
+    <a class="navbar-brand" href="index.html">
     <span class="navbar-title">Court Observers</span>
     </a>
   </div>
@@ -107,11 +107,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./signup_tutorial.html" rel="" target=""><i class="bi bi-easel" role="img">
 </i> 
  <span class="dropdown-text">Docket Sign-Up Tutorial</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./data.html" rel="" target=""><i class="bi bi-clipboard-data" role="img">
-</i> 
- <span class="dropdown-text">Data Deep Dive</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="https://github.com/childpovertyactionlab/court-observer" rel="" target=""><i class="bi bi-github" role="img">
@@ -165,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
   }
 </style>
 <div class="iframe-container">
-<p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1ikQuUf8QMbT4HDnWIqJFfChLVyl1_pvJeDIJDoIebR3F0faJCnTYs8l5GTV-D6vNDtn2tgDrbpBg/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOYgDhJ0N5liWkHAv-8Xxz2EfRCfodSIi4OYL1FZXqD7aykH382U6XyQEXgZED4MiWqUppSgULRt5w/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 </div>
 <b><b>
 
@@ -395,20 +390,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 </b></b></div><b><b> <!-- /content -->

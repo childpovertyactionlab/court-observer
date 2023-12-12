@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Court Observer Home",
     "section": "",
-    "text": "Training\n    \n  \n  \n    \n      \n      Court Watch Sign-In\n    \n  \n  \n    \n      \n      Note-Taking Template\n    \n  \n  \n    \n      \n      Docket Sign-Up Tutorial\n    \n  \n  \n    \n      \n      Data Deep Dive"
+    "text": "Training\n    \n  \n  \n    \n      \n      Court Watch Sign-In \n    \n  \n  \n    \n      \n      Note-Taking Template\n    \n  \n  \n    \n      \n      Sign-Up and Data Collection Tutorial"
   },
   {
     "objectID": "index.html#what-is-this-website-for",
     "href": "index.html#what-is-this-website-for",
     "title": "Court Observer Home",
     "section": "What is this website for?",
-    "text": "What is this website for?\nAsk Brianna what she wants here, if anything at all"
+    "text": "What is this website for?\nThis resource hub has all of the training materials, links, and documents that you will need during your time as a court observer!\n\n\n     Training\n    \n     Sign-In\n    \n     Template\n    \n     Tutorial"
   },
   {
     "objectID": "index.html#running-code",
@@ -30,6 +30,13 @@
   {
     "objectID": "signup_tutorial.html",
     "href": "signup_tutorial.html",
+    "title": "Docket Sign-Up Tutorial",
+    "section": "",
+    "text": "No .pdf reader available. Click here to download the PDF file."
+  },
+  {
+    "objectID": "tutorial.html",
+    "href": "tutorial.html",
     "title": "Docket Sign-Up Tutorial",
     "section": "",
     "text": "No .pdf reader available. Click here to download the PDF file."

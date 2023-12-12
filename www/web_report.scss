@@ -444,14 +444,6 @@ h6 {
     margin: 0;
     padding: 0;
   }
-  
-    &:hover {
-    background-color: $teal-700;
-    
-    p {
-      transform: scale(1.05); // Increase icon size on hover
-    }
-  }
 }
 
 .grid-item-empty {
@@ -466,6 +458,68 @@ h6 {
   justify-content: center;
   
 }
+
+.grid-link.hovered {
+  background-color: $teal-700; /* Update to the lighter teal color when hovered */
+  p {
+    transform: scale(1.05); // Increase icon size on hover
+  }
+}
+
+.info.hovered {
+  border-style: solid;
+  border-color: $teal-700;  
+  color: $teal-700;
+}
+
+.info {
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+    border-radius: 8px 10px 10px 8px;
+    background: transparent; /* Make sure $teal-900 is defined in your CSS or replace it with a standard color code */
+    padding: 10px; /* Add padding for better visual appearance */
+    display: inline-block; /* This makes the background only wrap the text, not the entire line */
+    
+}
+
+.info::after {
+    content: attr(data-description);
+    display: block;
+    margin-left: 10px;
+    font-size: 16px;
+    color: $teal-900;
+}
+
+span, .bi {
+    line-height: 1; /* Example value, adjust as needed */
+    font-size: 16px; /* Ensure compatible font sizes */
+}
+
+/*.info.show-description::after {
+    display: inline;
+}*/
+
+/*.info.collapsed::after {
+    content: '...';
+    display: inline;
+}*/
+
+/*.info.show-description.collapsed::after {
+    content: attr(data-description);
+}*/
+
+
+/*.info:hover::after {
+    content: attr(data-description);
+    margin-left: 10px;
+    font-size: 16px;
+    color: #DDD;
+    display: inline;
+}*/
 
 // Mermaid Theme;
 

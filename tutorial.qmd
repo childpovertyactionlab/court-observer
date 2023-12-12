@@ -1,5 +1,5 @@
 ---
-title: "Docket Sign-Up Tutorial"
+title: "Sign-Up and Data Collection Tutorial"
 toc: FALSE
 ---
 
